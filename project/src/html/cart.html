@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+     <link rel="stylesheet" href="/css/cart.css">
+    <link rel="stylesheet" type="text/css" href="/css/base.css">
+</head>
+</head>
+<body>
+   
+    <div class="header"></div>
+    <div class="server-bar" style="margin-right: 0px;">
+    <span class="open">扫码变美</span>
+     <ul>
+        <li class="qrcode"><img src="../img/qrcode.jpg"></li>
+        <li>
+        <p>售后热线</p>
+        <p>18059836592</p>
+        </li>
+        <li><a href=""><img src="../img/record.png"></a></li>
+        <li><a href=""><img src="../img/backTop.png"></a></li>
+     </ul>
+    </div>
+        <div class="m-body">
+            <div class="m-body-header">
+                <div class="float_l">
+                    <a href="/index.html"><img src="../img/logo (2).png"></a>
+
+                </div>
+                <a href="" class="gcbtn">购物车回收站</a>
+            </div>
+            <img src="../img/banner-line.jpg">
+            <p class="car-title-p">我的购物车</p>
+            <div class="cart_not_empty">
+            
+                <table class="table table-bordered table-hover">
+                  <thead>
+                     <tr class="tr-header">
+                       <th style="width:800px;text-align: left;padding-left: 10px;">商品<span class="float_r">|</span></th>
+                       <th style="width:96px;text-align: center;">单价<span class="float_r">|</span></th>
+                       <th style="width:180px;text-align: center;">数量<span class="float_r">|</span></th>
+                       <th style="width:106px;text-align: center;">小计<span class="float_r">|</span></th>
+                       <th style="width:50px;text-align: center">操作</th>
+                    </tr>
+                   </thead>
+               </table>
+                    <tbody> 
+                     <script  type="text/html" id="cart_temp">
+                    {{each products prod}}
+
+                    <tr data-id="{{prod.id}}"> 
+                     <td><input type="checkbox" class="ck_prod"></td>
+                    <td><img src="{{prod.img}}" style=" height:200px;text-align: left;padding-left: 10px;padding-right: 590px"></td>
+                    
+                    <td  style="width:50px;text-align: center;padding-right: 20px">{{prod.price}}</td>
+                    <td>
+                        <div class="input-group">
+                        <span class="input-group-addon minus" style="float: left;width: 20px;height: 20px;padding-left:10px; cursor: pointer">-</span>
+                        <input type="text" class="form-control text-center amount" value="{{prod.amount}}" id="form">
+                        <span class="input-group-addon add" style="float:right; padding-right: 7px; cursor: pointer;" >+</span>
+                        </div>
+                    </td>
+                    <td class="sub_total" style="width:76px;text-align: center;padding-left: 10px">{{(prod.price * prod.amount).toFixed(2)}}</td>
+                    <td><a href="javascript:void(0);" class="del_link" style="width:50px;text-align: center; margin-left: 20px">删除</a></td>
+                    </tr>
+                    {{/each}}
+                </script>
+                    </tbody>
+                    <table>
+                    <tr>
+                        <td colspan="5" align="center" height="100">当前购物车内还没有东西</td>
+                    </tr>
+                </table>
+             
+                
+             
+
+                <div class="float_r" style="margin-top:10px;">商品总计<span class="totalPrice-info">(不含运费)</span>:<span id="goods_total_price" class="totalPrice">￥0</span></div>
+           
+        </div>
+        </div>
+         <div class="address-wrap" style="width: 1240px;margin: auto;">
+         <p class="address-wrap-title">地址选择</p>
+        <div class="address-wrap-ul cf">
+            <ul id="address_list">
+                                <li class="addressli" id="addAddr">
+                    <div class="add-wrap">
+                        <div style="font-size: 32px;font-weight: bold;color: #999;padding-left: 8px;">+</div>
+                       <p style="color: #999;font-size: 14px">使用新的地址</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <p id="rules">订单金额满79元即免运费<span class="rule-explain" style="color:#ff498c;cursor:pointer;">（规则）</span></p>
+        <div class="paybtn-wrap float_r">
+        <input type="button" value="微信支付" class="paybtn weixinbtn">
+        <input type="button" value="支付宝支付" class="paybtn zhifubaobtn" style="overflow: hidden;">
+         </div>
+    </div> 
+        <div class="footer"></div>
+       <script src="/lib/requirejs/require.js" data-main="/js/cart"></script>   
+                                                                                                                                                                                                                                                                                                                          
+</body>
+</html>

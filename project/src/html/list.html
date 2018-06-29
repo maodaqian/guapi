@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+     <link rel="stylesheet" href="/css/list.css">
+    <link rel="stylesheet" type="text/css" href="/css/base.css">
+</head>
+<body>
+      <div class="header"></div>
+       <div class="server-bar" style="margin-right: 0px;">
+    <span class="open">扫码变美</span>
+    <ul>
+        <li class="qrcode"><img src="../img/qrcode.jpg"></li>
+        <li>
+        <p>售后热线</p>
+        <p>18059836592</p>
+        </li>
+        <li><a href=""><img src="../img/record.png"></a></li>
+        <li><a href=""><img src="../img/backTop.png"></a></li>
+    </ul>
+</div>
+      <div class="server-bar" style="margin-right: 0px;">
+    <span class="open">扫码变美</span>
+    <ul>
+        <li class="qrcode"><img src="../img/qrcode.jpg"></li>
+        <li>
+        <p>售后热线</p>
+        <p>18059836592</p>
+        </li>
+        <li><a href=""><img src="../img/record.png"></a></li>
+        <li><a href=""><img src="../img/backTop.png"></a></li>
+    </ul>
+</div>
+      <div class="container">
+        <div class="con">
+            <div class="header-wrap">
+                <div class="head-logo"> 
+                 <a href=""><img src="../img/logo.png"></a> </div>
+             
+               <div class="nav-menu">
+                   <ul>
+                       <li><a href="/index.html">首页</a></li>
+                       <li><a href="/html/list.html">养肤护肤</a></li>
+                       <li><a href="/html/list.html">彩妆香水</a></li>
+                       <li><a href="/html/list.html">工具洗护</a></li>
+                       <li><a href="/html/list.html">美容仪器</a></li>
+                       <li><a href="/html/list.html">美容食品</a></li>
+                       <li><a href="/html/list.html">新品上市</a></li>
+                       <li><a href="/html/list.html">顾问查询</a></li>
+                   </ul>
+               </div>
+
+               <div class="search-wrap">
+                   <input type="texte" placeholder="搜索你需要的商品" id="search-input">
+                    <div id="searchbtn" ><img src="../img/search_btn.png"></div>
+               </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="m-body">
+    <div class="main-cont">
+        <ul class="breadcrumb cf">
+            <li><a href="/index.html" target="_top" >首页</a> <span class="divider">/</span></li>
+            <li><a href="/html/list.html">所有商品</a> <span class="divider">/</span></li>
+            <li class="active">pba</li>
+        </ul>
+        <!---导航下的面板-->
+        <div class="main-middle-cont" id="main_middle_cont">
+            <ul class="categorylist">
+                <li>
+                    <div class="category-cont">
+                        <span class="main-category"><a href="/html/list.html" class="main-category">护肤：</a></span>
+                        <ul class="category-cont-main">
+                            <li><a href="/html/list.html">洁面</a></li>
+                            <li><a href="/html/list.html">爽肤水</a></li>
+                            <li><a href="/html/list.html">乳液</a></li>
+                            <li><a href="/html/list.html">面霜</a></li>
+                            <li><a href="/html/list.html">手工皂</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="category-cont">                               
+                        <span class="main-category"><a href="" class="main-category">彩妆：</a></span>
+                        <ul class="category-cont-main" style="overflow: hidden;">
+                            <li><a href="">BB霜</a></li>
+                            <li><a href="">底妆</a></li>
+                            <li><a href="">眼妆</a></li>
+                            <li><a href="">唇妆美甲</a></li>
+                            <li><a href="">卸妆</a></li>
+                            <li><a href="">工具</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <div class="category-cont">                               
+                        <span class="main-category"><a href="#" class="main-category">面膜：</a></span>
+                        <ul class="category-cont-main">
+                            <!--choose_catgm大类下的小大类-->
+                            <li><a href="">面膜贴</a></li>
+                            <li><a href="">果酱面膜</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <!--category_small小大类下的小类，功效-->
+                <li id="category_small">                                              
+                    <div class="category-cont">                               
+                        <span class="main-category"><a href="#" class="main-category">功效：</a></span>
+                        <ul class="category-cont-main">
+                            <li><a href="">遮瑕</a></li>
+                            <li><a href="">隔离</a></li>
+                            <li><a href="">保湿</a></li>
+                            <li><a href="">控油</a></li>
+                            <li><a href="">美白</a></li>
+                            <li><a href="">补水</a></li>
+                            <li><a href="">祛痘</a></li>
+                            <li><a href="">淡斑</a></li>
+                            <li><a href="">排毒</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <!--end产品分类-->
+            <!--start产品展示面板-->
+            <div id="goods_list"> 
+                <!--start功能分类-->
+                <div class="category-cont">               
+                    <ul class="category-cont-main">
+                        <li><a href="">推荐</a></li>
+                        <li><a href="">价格从高到低</a></li>
+                        <li><a href="">价格从低到高</a></li>
+                        <li><a href="">按最新</a></li>
+                    </ul>
+                </div>
+                    <!-- 热卖商品模板 -->
+     <script id="hot_sale_temp" type="text/html">
+        {{each list prod}}
+        <a href="/html/detail.html">
+            <li>
+                <span class="id" style="display: none;">{{prod.id}}</span>
+                <img src="{{prod.img}}" class="img-responsive"/>
+                <p class="btn5">{{prod.price}}</p>
+                <p>{{prod.title}}</p>
+            </li>
+        </a>
+        {{/each}}
+    </script>
+    <ul class="grid_2">
+        <div class="clearfix"> </div>
+    </ul>
+             <!--    <div id="show_goods_list" class="show-goods-list">
+                    <ul>
+                                                                                    <li>
+                                    <a href="/html/detail.html"><img src="../img/7dd85c8b6fe887998136541dfafe96a9.jpg!302.302" class="goods-pic-box" alt="PBA 男士套装"></a>
+                                    <div class="goods-info float_l">
+                                        <p class="goods-name"><a href="/html/detail.html">PBA 男士套装</a></p>
+                                        <p class="goods-price"><a href="/html/detail.html">￥59.90</a></p>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <a href="/html/detail.html"><img src="../img/edde0f929f90d15b7e9bc5f2431a3c0c.jpg!302.302" class="goods-pic-box" alt="PBA 玻尿酸精华液"></a>
+                                    <div class="goods-info float_l">
+                                        <p class="goods-name"><a href="/html/detail.html">PBA 玻尿酸精华液</a></p>
+                                        <p class="goods-price"><a href="/html/detail.html">￥29.90</a></p>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <a href="/html/detail.html"><img src="../img/c63be446ddac1eccd646ede1e52b5147.jpg!302.302" class="goods-pic-box" alt="PBA 胶原蛋白精华液"></a>
+                                    <div class="goods-info float_l">
+                                        <p class="goods-name"><a href="/html/detail.html">PBA 胶原蛋白精华液</a></p>
+                                        <p class="goods-price"><a href="/html/detail.html">￥39.90</a></p>
+                                    </div>
+                                </li>
+                                                            <li>
+                                    <a href="/html/detail.html"><img src="../img/45fa8aafd83a220bb225329878cffe4b.jpg!302.302" class="goods-pic-box" alt="PBA 睫毛滋养液"></a>
+                                    <div class="goods-info float_l">
+                                        <p class="goods-name"><a href="/html/detail.html">PBA 睫毛滋养液</a></p>
+                                        <p class="goods-price"><a href="/html/detail.html">￥29.90</a></p>
+                                    </div>
+                                </li>
+                  </ul>
+                    <div class="tip-wrap">
+                        <p>加入购物车成功</p>
+                    </div>
+                </div> -->
+            </div>
+                    </div>
+    </div>
+</div>
+      <div class="footer" style="background:white;"></div>
+       <script src="/lib/requirejs/require.js" data-main="/js/list"></script> 
+</body>
+</html>

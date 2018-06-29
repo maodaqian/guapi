@@ -1,0 +1,56 @@
+.login {
+    width: 335px;
+    margin: 0 auto;
+}
+.img{
+    text-align: center;
+    margin: 97px 0px 35px 0px;
+}
+.login input{
+    border:none;
+    border: 1px solid #e2e2e2;
+}
+#mobile{
+    outline: none;
+    color: #969696;
+    width: 313px;
+    padding: 14px 10px;
+    font-size: 14px;
+}
+#savepassword{
+    outline: none;
+    color: #969696;
+    width: 313px;
+    padding: 14px 10px;
+    font-size: 14px;
+    border-top:none;
+}
+.login form{
+    padding-top:9px;
+}
+.loginbtn{
+    background-color: #ff498c;
+    color: white;
+    font-size: 16px;
+    padding: 14px 0px;
+    border: none;
+    width: 335px;
+    margin: 66px 0px 12px 0px;
+    cursor: pointer;
+}
+
+.pass-wrap a {
+    font-size:14px;
+    float: right;
+    text-decoration: none;
+    color: #969696;
+    padding-top:10px;
+}
+.check{
+   padding-top:11px;  
+    font-size:14px;
+    float:left;
+}
+.check span{
+    padding-left:5px;
+}

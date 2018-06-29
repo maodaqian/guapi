@@ -1,0 +1,297 @@
+/* banner区域 */
+/*.index-hero {
+    margin-bottom: 50px;
+}*/
+.banner-wrap {
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-wrap a {
+  display: block;
+}
+
+.banner-box ,.banner-box img{
+  height: 393px;
+  width: 100%;
+}
+
+.banner-wrap .site-category {
+  position:absolute;
+  left: 0;
+  top: 0;
+  width: 210px;
+  height: 351px;
+  padding: 21px 0;
+  background-color: rgba(0,0,0,0.6);
+  *background-color: #636364;
+}
+
+.banner-wrap .site-category .category-item{
+  height: 50px;
+  line-height: 50px;
+  margin:0;
+  padding: 0;
+}
+
+.banner-wrap .site-category .category-item:hover{
+  background-color: #f498fe;
+}
+
+
+.banner-wrap .site-category .category-item .title {
+  position: relative;
+  padding-left: 32px;
+  display: inline-block;
+  width: 178px;
+  color: #fff;
+}
+.banner-wrap .site-category .category-item .title span{
+  position: absolute;
+  top: 0;
+  right: 18px;
+}
+
+
+.site-category-list .children {
+  display: none;
+  position: absolute;
+  left: 210px;
+  top: 0;
+  z-index: 999;
+  height: 393px;
+  width: 290px;
+  background-color: #f6f6f6;
+  -webkit-box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.18)
+}
+
+.site-category-list .children.category-item-active {
+  display: block;
+}
+
+.site-category-list .children.children-col-2 {
+  width: 581px;
+}
+
+.site-category-list .children.children-col-3 {
+  width: 872px;
+}
+.children-list-col {
+  width: 290px;
+  float: left;
+}
+.children-col-line{
+  width: 1px;height: 370px;margin: 10px 0;background-color: #efefef;
+}
+.children-list .category-child-item {
+  height: 78px;
+  width: 100%;
+}
+.children-list .category-child-item .link{
+  padding: 16px 36px;
+  padding-right: 0;
+  height: 45px;
+  width: 151px;
+  float: left;
+  line-height: 22px;
+}
+.children-list .category-child-item .link img{
+  display: inline-block;
+  vertical-align: middle;
+  height: 45px;
+  width: 45px;
+  /*margin-right: 14px;*/
+}
+.children-list .category-child-item .link .text{
+  font-size: 16px;
+  width: 101px;
+  text-align: center;
+  display: inline-block;
+}
+.children-list .category-child-item .btn-select{
+  width: 72px;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 25px 0;
+  color: #F498FE;
+  border-radius: 14px;
+  border:1px solid #F498FE;
+  background-color: none;
+  display: inline-block;
+  text-align: center;
+}
+.children-list .category-child-item .btn-select:hover{
+  color: #fff;
+  background-color: #F498FE;
+}
+.banner-sub {
+  font-size: 0;
+  margin-top: 26px;
+}
+.banner-sub a{
+  display: inline-block;
+  *display:inline;
+  *zoom:1;
+  width: 302px;
+  height: 141px;
+  margin-right: 6px;
+}
+/* birck */
+.index-birck-box{
+  background-color: #f5f5f5;
+}
+
+.index-birck-box.index-birck-box-reverse{
+  background-color: #fff;
+}
+
+.birck-row-2 .birck-banner,.birck-row-2 .birck-goods-wrap{
+  float: left;
+}
+.birck-row-2 .birck-banner {
+  width: 253px;
+}
+.birck-row-2 .birck-goods-wrap{
+  width: 973px;
+}
+
+.birck-hd {
+  margin-top: 25px;
+  padding-bottom: 15px;
+  position: relative;
+}
+.birck-more{
+  position: absolute;
+  right: 0;
+  bottom: 34px;
+  display: block;
+}
+.birck-bd {
+  padding-bottom: 26px;
+}
+
+/* birck 商品大小 */
+.birck-goods {
+  float: left;
+  position: relative;
+  background-color: #fff;
+  width: 232px;
+  height: 299px;
+  text-align: center;
+  margin-left: 10px;
+  margin-bottom: 13px;
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+.birck-goods:hover {
+    -webkit-box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1);
+    -webkit-transform: translate3d(0, -2px, 0);
+    transform: translate3d(0, -2px, 0)
+}
+
+.index-birck-box-reverse .birck-goods {
+  background-color: #f5f5f5;
+}
+.birck-goods img {
+  width: 100%;
+}
+/* 商品信息相关 */
+.birck-goods .goods-info-box {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.birck-goods .goods-title-main {
+  font-size: 15px;
+  line-height: 15px;
+  *line-height: 17px;
+  font-weight: 500;
+}
+.birck-goods .goods-title-sub {
+  font-size: 13px;
+  line-height: 27px;
+  color: #656565;
+}
+.birck-goods .goods-price {
+  font-size: 17px;
+  line-height: 27px;
+  font-weight: bold;
+  color: #fe003f;
+}
+/* birck 标题 */
+.birck-hd.birck-hd-center{
+  text-align: center;
+  margin:0;
+  padding-bottom: 30px;
+}
+.birck-hd.birck-hd-center img {
+  width: 279px;
+  height: 5px;
+  padding-top: 5px;
+  margin: 0 auto;
+}
+.birck-hd h1{
+  font-size: 34px;
+  line-height: 44px;
+  font-weight: 500;
+}
+
+.birck-hd p{
+  font-size: 15px;
+  line-height: 30px;
+  color: #666;
+}
+/* 明星产品 */
+.index-star-wrap {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+.index-food-wrap {
+  padding-top: 38px;
+  padding-bottom: 40px;
+}
+
+.star-goods{
+  margin: 0;
+  margin-right: 4px;
+  float: left;
+  position: relative;
+  background: url(http://pbaimage.pba.cn/2014/new_pba/images/homepage/star_goods_bg.png) center center no-repeat;
+  width: 242px;
+  height: 351px;
+  text-align: center;
+}
+
+.star-goods .goods-title-main {
+  font-size: 16px;
+  line-height: 16px;
+  *line-height: 18px;
+  font-weight: 500;
+}.star-goods .goods-title-sub {
+  font-size: 14px;
+  line-height: 34px;
+  color: #656565;
+}.star-goods .goods-price {
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  color: #fe003f;
+}
+
+.banner-wrap { height: 394px; }
+.banner-box {position:absolute; width: 1226px;left:0;right:0;margin: auto;}
+.banner-box .hd {position: absolute;bottom: 10px; left: 54%; z-index: 99}
+.banner-box .hd li{background-color: #fff;width: 12px;height: 12px;border-radius: 100%;float: left; margin:0 5px;}
+.banner-box .hd li.on{background-color: #fe003f;}
+.banner-box img {width: 100%;margin:0;}
+.banner-box .prev,.banner-box .next{ position:absolute; left:20%; top:50%; margin-top:-28px; display:block; width:33px; height:56px; background:url(http://pbaimage.pba.cn/2015/www.mushu.cn/images/slider-arrow-gray.png) -308px 0px no-repeat;}
+.banner-box .next{ left:auto; right:3%; background-position:-105px 0px; }
+.banner-box .prev:hover {background-position:-203px 0px;}
+.banner-box .next:hover {background-position: 0;}

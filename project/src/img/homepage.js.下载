@@ -1,0 +1,16 @@
+/**
+ * Created by pc on 14-12-28.
+ */
+
+$(document).ready(function(){
+	$('.index-birck-box:odd').addClass('index-birck-box-reverse');
+    $(".banner-box").slide({mainCell:".bd ul",effect:"fold",autoPlay:true,interTime: 6000});
+
+    $('.category-item').hover(function(){
+        var children = $(this).find('.children');
+        children.addClass('category-item-active');
+    }).mouseleave(function(){
+        var children = $(this).find('.children');
+        children.removeClass('category-item-active');
+    })
+})

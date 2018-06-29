@@ -1,0 +1,88 @@
+
+//http请求对象
+var HttpRequest = {
+    createNew: function () {
+        var httpRequest = {};
+
+        //发起http请求
+        //params参数：
+        // url
+        // type
+        // params
+        // error
+        // success
+        // dataType
+        // 
+        httpRequest.request = function (params) {
+            if (!params.success) {
+                alert("必须传递请求成功后的方法");
+                return;
+            }
+            $.ajax({
+                url: params.url,
+                type: params.type,
+                data: params.data,
+                dataType: params.dataType,
+                success: function (data) {
+                    if (params.success) {
+                        params.success(data);
+                    }
+                },
+                error: function () {
+                    showMessage("网络异常，请重试");
+                }
+            });
+        };
+        return httpRequest;
+    }
+};
+
+var AppHttpRequest = {
+    createNew: function () {
+        var appHttpRequest = {};
+        appHttpRequest.host = APP_HOST;
+
+        //发起http请求
+        //params参数：
+        // uri
+        // type
+        // params
+        // error http请求出现错误的处理方法
+        // isOK 请求app.pba.cn接口，当errno等于0时会调用isOK方法
+        // noOK 当errno!=0时会调用这个方法
+        // dataType
+        // 
+        appHttpRequest.request = function (params) {
+            params.dataType = "jsonp";
+            if (!params.isOK) {
+                alert("请求app.pba.cn接口isOK方法必须要设置");
+                return;
+            }
+            params.url = this.host + params.uri;
+            if (!params.data.sso) {
+                params.data.sso = $.cookie("sso");
+            }
+            params.success = function (data) {
+                if (data.errno == "0") {
+                    params.isOK(data);
+                    return;
+                }
+                if (params.noOK) {
+                    params.noOK(data);
+                    return;
+                }
+                showMessage(data.errmsg);
+            }
+            var httpRequest = HttpRequest.createNew();
+            httpRequest.request(params);
+        };
+        return appHttpRequest;
+    }
+};
+
+var appHttpRequest = AppHttpRequest.createNew();
+
+//显示信息
+function showMessage(message) {
+    alert(message);
+}

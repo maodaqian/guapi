@@ -1,0 +1,15 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body": {
+        "list" : 
+            [
+                {"id":1, "img":"/img/star_01.png", "desc":"柔肤多效BB霜 2014新款","dess":"经典款升级版，更轻薄更滋润", "price":"49.9元"},
+                {"id":2, "img":"/img/star_02.png", "desc":"渐变唇膏","dess":"咬唇妆不用学，一抹即现", "price":"49.9元"},
+                {"id":3, "img":"/img/star_03.png", "desc":"矿物散粉","dess":"控油防脱妆，一整天不晕不花", "price":"49.9元"},
+                {"id":4, "img":"/img/star_04.png", "desc":"缤纷焕采面膜贴 24片","dess":"美白又补水，满足肌肤的渴望", "price":"49.9元"},
+                {"id":5, "img":"/img/star_05.png", "desc":"妆前乳","dess":"隔离伤害，平滑肌肤帮助上妆", "price":"49.9元"}
+            ]
+        
+    }
+}

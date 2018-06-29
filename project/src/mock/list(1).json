@@ -1,0 +1,18 @@
+{
+    "res_code":0,
+    "res_error":"",
+    "res_body": {
+        "list" : 
+            [
+                {"id":1, "img":"../img/7dd85c8b6fe887998136541dfafe96a9.jpg!302.302", "title":"PBA 男士套装", "price":"59.90"},
+                {"id":2, "img":"../img/edde0f929f90d15b7e9bc5f2431a3c0c.jpg!302.302", "title":"PBA 玻尿酸精华液", "price":"29.90"},
+                {"id":3, "img":"../img/c63be446ddac1eccd646ede1e52b5147.jpg!302.302", "title":"PBA 胶原蛋白精华液", "price":"39.90"},
+                {"id":4, "img":"../img/45fa8aafd83a220bb225329878cffe4b.jpg!302.302", "title":"PBA 睫毛滋养液","price":"29.90"},
+                {"id":5, "img":"../img/7dd85c8b6fe887998136541dfafe96a9.jpg!302.302", "title":"PBA 男士套装", "price":"59.90"},
+                {"id":6, "img":"../img/edde0f929f90d15b7e9bc5f2431a3c0c.jpg!302.302", "title":"PBA 玻尿酸精华液", "price":"29.90"},
+                {"id":7, "img":"../img/c63be446ddac1eccd646ede1e52b5147.jpg!302.302", "title":"PBA 胶原蛋白精华液", "price":"39.90"},
+                {"id":8, "img":"../img/45fa8aafd83a220bb225329878cffe4b.jpg!302.302", "title":"PBA 睫毛滋养液","price":"29.90"}
+            ]
+       
+    }
+}

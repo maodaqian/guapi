@@ -1,0 +1,460 @@
+.prev,.next{
+ height: 100px;
+line-height:100px;
+text-align:center;
+font-size:78px;
+position:absolute;
+top:0;
+bottom: 0;
+margin:auto;
+color:black;
+opacity:0.2;
+cursor:pointer;
+}
+.prev{
+    left:210px;
+}
+.server-bar {
+    position: fixed;
+    z-index: 99;
+    top: 190px;
+    right: -122px;
+    width: 122px;
+    height: 260px;
+    background-color: #ff5387;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.server-bar .open {
+    position: absolute;
+    left: -22px;
+    top: 33px;
+    width: 14px;
+    padding: 10px 4px;
+    background-color: #FF5387;
+    color: #fff;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+.server-bar a {
+    display: block;
+}
+
+.server-bar .qrcode {
+    padding: 10px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+.qrcode img{
+    width:102px;
+    height:102px;
+}
+.server-bar p {
+    margin-top: 5px;
+}
+
+.server-bar a img {
+    margin: 8px;
+    margin-bottom: 0;
+}
+.server-bar .backTop {
+    position: absolute;
+    bottom: -44px;
+    left: 15px;
+}
+.server-bar {
+    position: fixed;
+    z-index: 99;
+    top: 190px;
+    right: -122px;
+    width: 122px;
+    height: 260px;
+    background-color: #ff5387;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.server-bar .open {
+    position: absolute;
+    left: -22px;
+    top: 33px;
+    width: 14px;
+    padding: 10px 4px;
+    background-color: #FF5387;
+    color: #fff;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+.server-bar a {
+    display: block;
+}
+
+.server-bar .qrcode {
+    padding: 10px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+.qrcode img{
+    width:102px;
+    height:102px;
+}
+.server-bar p {
+    margin-top: 5px;
+}
+
+.server-bar a img {
+    margin: 8px;
+    margin-bottom: 0;
+}
+.server-bar .backTop {
+    position: absolute;
+    bottom: -44px;
+    left: 15px;
+}
+.container{
+    height:172px;
+    min-width: 1024px;
+}
+.con{
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1221px;
+}
+.con .header-wrap{
+   overflow: hidden;
+    padding-top: 69px;
+}
+.header-wrap .head-logo{
+    float:left;
+    margin-left:12px;
+}
+.header-wrap .head-logo img{
+     width: 194px;
+    height: 71px;
+
+}
+.nav-menu{
+    float: left;
+    padding-top: 18px;
+    padding-left: 28px;
+    font-size: 16px;
+    line-height: 26px;
+}
+.nav-menu ul{
+    overflow: hidden;
+    border-bottom: 1px solid #E9E9E9;
+    padding-right: 28px;
+}
+.nav-menu ul li{
+   float:left;
+   color:#666;
+   line-height:39px;
+   margin-left:20px;
+}
+.nav-menu ul li a{
+    color: #999;
+    text-decoration: none;
+}
+.nav-menu ul li a:hover{
+text-decoration:none;color:#E60041;
+}
+.search-wrap{
+    overflow: hidden;
+    width: 271px;
+    float:left;
+    padding-top:14px;
+    padding-left:5px;
+}
+.search-wrap input{
+    width: 190px;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #eaeaea;
+}
+#searchbtn{
+    float: right;
+    width: 46px;
+    height: 48px;
+    border: 1px solid #eaeaea;
+    border-left: none;
+}
+#searchbtn img{
+    margin:13px;
+}
+.index-hero{
+     margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1226px;
+}
+
+.banner-wrap{
+    position: relative;
+    overflow: hidden;
+    height: 394px;
+}
+.site-category{
+    font-size:14px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 210px;
+    height: 393px;
+    padding: 21px 0;
+    background-color: rgba(0,0,0,0.6);
+    z-index:1;
+}
+.cf{
+    zoom:1;
+}
+.category-item {
+    height: 50px;
+    line-height: 50px;
+    margin: 0;
+    padding: 0;
+}
+.category-item .title {
+    position: relative;
+    padding-left: 32px;
+    display: inline-block;
+    width: 178px;
+    color: #fff;
+}
+.category-item .title span {
+    position: absolute;
+    top: 0;
+    right: 18px;
+}
+ .children {
+ width: 581px;
+    /* display: none; */
+    position: absolute;
+    left: 210px;
+    top: 0;
+    z-index: 999;
+    height: 393px;
+    background-color: #f6f6f6;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.18);
+    display:none;
+    }
+.children-list-col {
+    width: 290px;
+    float: left;
+}
+.category-child-item {
+    height: 78px;
+    width: 100%;
+}
+ .link {
+    padding: 16px 36px;
+    padding-right: 0;
+    height: 45px;
+    width: 151px;
+    float: left;
+    line-height: 22px;
+}
+ .link img {
+    display: inline-block;
+    vertical-align: middle;
+    height: 45px;
+    width: 45px;
+}
+ .link .text {
+    font-size: 16px;
+    width: 101px;
+    text-align: center;
+    display: inline-block;
+    color:#999;
+}
+.btn-select {
+    width: 72px;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 25px 0;
+    color: #F498FE;
+    border-radius: 14px;
+    border: 1px solid #F498FE;
+    display: inline-block;
+    text-align: center;
+}
+.children-list-co2 {
+    width: 290px;
+    float: left;
+}
+.category-item:hover  .children{
+  display:block;
+}
+.children .text:hover{
+    color:black;
+}.btn-select:hover{
+    background:#F498FE;
+    color:white;
+}
+.category-item:hover{
+    background:#F498FE
+}
+.bd{
+    position:absolute;
+}
+.bg img{
+    position:relative;
+}
+.banner-sub{
+    width:1231px;
+    margin:auto;
+    margin-top: 26px;
+
+}
+.banner-sub a {
+    display: inline-block;
+    width: 302px;
+    height: 141px;
+    margin-right: 2px;
+}
+.index-star-wrap container {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1226px;
+}
+.index-star-wrap {
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+.birck-hd.birck-hd-center {
+    text-align: center;
+    margin: 0;
+    padding-bottom: 30px;
+    background:#fff;
+}
+.birck-hd {
+    position: relative;
+}
+.birck-hd h1 {
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 500;
+    color:#999;
+}
+
+.birck-hd p {
+    font-size: 15px;
+    line-height: 30px;
+    color: #666;
+}
+
+    .star-goods {
+    margin: 0;
+    margin-right: 4px;
+    float: left;
+    position: relative;
+    background: url(http://pbaimage.pba.cn/2014/new_pba/images/homepage/star_goods_bg.png) center center no-repeat;
+    width: 242px;
+    height: 351px;
+    text-align: center;
+    margin-bottom:100px;
+
+}
+.birck-goods .goods-info-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.star-goods .goods-title-main {
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 500;
+}
+.star-goods .goods-title-sub {
+    font-size: 14px;
+    line-height: 34px;
+    color: #656565;
+}
+.star-goods .goods-price {
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: bold;
+    color: #fe003f;
+}
+.star-goods:hover{
+    margin-top:-2px;
+   box-shadow: 10px 10px 5px #888888 ;
+}
+
+
+.contain {
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1231px;
+    background:#E6E6e6;
+}
+.birck-hd {
+    margin-top: 25px;
+    padding-bottom: 15px;
+    position: relative;
+}
+.birck-more {
+    position: absolute;
+    right: 0;
+    bottom: 34px;
+    display: block;
+}
+.birck-bd {
+    padding-bottom: 26px;
+   width:1231px;
+   margin:auto;
+ }
+.birck-row-2 .birck-banner {
+    width: 253px;
+    float: left;
+}
+.birck-row-2 .birck-goods-wrap {
+    width: 973px;
+        float: left;
+}
+.birck-good {
+    float: left;
+    position: relative;
+    background-color: #fff;
+    width: 232px;
+    height: 299px;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 13px;
+    transition: all 0.2s linear;
+}
+.birck-good img {
+    width: 100%;
+}
+ .goods-info-box {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.goods-title-main {
+    font-size: 15px;
+    line-height: 15px;
+    font-weight: 500;
+    color:#999;
+}
+.birck-good .goods-title-sub {
+    font-size: 13px;
+    line-height: 27px;
+    color: #656565;
+}
+.birck-good .goods-price {
+    font-size: 17px;
+    line-height: 27px;
+    font-weight: bold;
+    color: #fe003f;
+}
+

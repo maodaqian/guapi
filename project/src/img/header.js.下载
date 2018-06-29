@@ -1,0 +1,17 @@
+(function() {
+    $('.shop-car-btn').hover(function() {
+        $('.shop-car-box').show();
+    }).mouseleave(function() {
+        $('.shop-car-box').hide();
+    });
+    $('.my-center').hover(function() {
+        $('.my-list').show();
+    }).mouseleave(function() {
+        $('.my-list').hide();
+    });
+    $('.server-bar').hover(function(){
+            $(this).stop().animate({paddingRight:'122px'})
+    }).mouseleave(function() {
+            $(this).stop().animate({paddingRight:'0px'});
+        });;
+})();

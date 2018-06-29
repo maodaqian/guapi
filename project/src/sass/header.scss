@@ -1,0 +1,77 @@
+.header{
+       background-color: #363636;
+    width: 100%;
+    margin: 0 auto;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 0
+   
+}
+.bottom{
+  position: absolute;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background: #e5e5e5e5;
+    top: 32px;
+    right: -2px;
+    color:black;
+    font-size:16px;
+    line-height:50px;
+}
+.head{
+    margin:0 auto;
+    width: 1226px;
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+    position: relative
+}
+.head ul{
+    width: 1226px;
+    height: 32px;
+    line-height: 32px;
+    
+}
+.head ul li{
+       margin-left: 0;
+    text-align: center;
+    float: right;
+    padding-left: 6px;
+    padding-right: 11px;
+    color: #fff;
+}
+.head ul li:first-child{
+ background: #424242;
+}
+
+.head ul li a{color:#fff;font-size:12px;}
+ 
+ .head ul li span{
+ font-size:12px;
+ text-align:center;
+ padding-left:15px;
+  color:#4B4B4B;
+ }
+.head ul li:first-child img{
+    width:15px;
+    height:12px;
+    padding-right:3px;
+
+}
+.head ul li:first-child a{color:#b0b0b0}
+.head ul .my_PBA .list{
+    background:#424242;
+    position:absolute;
+    width:88.44px;
+    right:10px;
+    z-index: 1;
+    display: none;
+}
+.head ul .my_PBA:hover .list{
+    display:block;
+}
+.head ul .my_PBA .list p:hover{
+    background:#e5e5e5;
+}

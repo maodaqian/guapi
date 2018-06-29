@@ -1,0 +1,61 @@
+.reg{
+    width:320px;
+    margin:80px auto;
+}
+.logo{
+    text-align: center;
+    margin: 97px 0px 13px 0px;
+}
+.logo h1 {
+    padding-top: 25px;
+    font-weight: 500;
+    font-size:28px;
+}
+.input-wrap {
+    overflow: hidden;
+    position: relative;
+}
+.input-wrap input {
+    width: 298px;
+    border: 1px solid #efefef;
+    padding: 10px;
+    margin-top: 13px;
+    font-size:14px;
+}
+.input-wrap input#chNum {
+    width: 139px;
+    float: left;
+}
+.rewardChNum {
+    float: left;
+    line-height: 20px;
+    margin-left: 7px;
+    margin-top: 13px;
+    color: white;
+    padding: 9px 0px;
+    background-color: #ff498c;
+    width: 125px;
+    cursor: pointer;
+    text-align: center;
+    font-size:14px;
+}
+.rewardChNum.timeC {
+    background-color: #969696;
+    display: none;
+}
+#registbtn {
+    width: 100%;
+    border: 0;
+    margin: 0;
+    margin-top: 13px;
+    margin-bottom:22px;
+}
+.policy {
+    color: #a9a9a9;
+    letter-spacing: 0.5px;
+    font-size:13px;
+}
+.main-active {
+    color: #000;
+    text-decoration: none;
+}

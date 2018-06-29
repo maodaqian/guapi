@@ -1,0 +1,208 @@
+.m-body {
+    width: 1240px;
+    margin: 0 auto;
+}
+.m-body-header {
+    overflow: hidden;
+    padding: 82px 0px 37px 0px;
+    overflow: hidden;
+}
+.float_l {
+    float: left;
+}
+.server-bar {
+    position: fixed;
+    z-index: 99;
+    top: 190px;
+    right: -122px;
+    width: 122px;
+    height: 260px;
+    background-color: #ff5387;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+}
+.server-bar .open {
+    position: absolute;
+    left: -22px;
+    top: 33px;
+    width: 14px;
+    padding: 10px 4px;
+    background-color: #FF5387;
+    color: #fff;
+    border-top-left-radius: 14px;
+    border-bottom-left-radius: 14px;
+}
+.server-bar a {
+    display: block;
+}
+
+.server-bar .qrcode {
+    padding: 10px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+.qrcode img{
+    width:102px;
+    height:102px;
+}
+.server-bar p {
+    margin-top: 5px;
+}
+
+.server-bar a img {
+    margin: 8px;
+    margin-bottom: 0;
+}
+.server-bar .backTop {
+    position: absolute;
+    bottom: -44px;
+    left: 15px;
+}
+.gcbtn {
+    display: block;
+    background-color: #ff498c;
+    color: white;
+    width: 123px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 39px;
+    float: right;
+    font-size:14px;
+     overflow: hidden;
+}
+.car-title-p {
+    font-size: 25px;
+    color: #535353;
+    padding: 28px 0px 17px 0px;
+}
+#myOrderfrm{
+    font-size:12px;
+    color:#999;}
+#myOrderfrm table {
+    border: none;
+    border-collapse: collapse;
+    padding-bottom: 20px;
+}
+.tr-header {
+    overflow: hidden;
+    background-color: #f8f8f8;
+    font-size: 12px;
+    height: 30px;
+}
+#myOrderfrm table tr td {
+    text-align: center;
+    padding: 15px 0px;
+    border-bottom: 1px solid #e2e2e2;
+}
+.float_r {
+    float: right;
+
+}
+.totalPrice {
+    color: #ff498c;
+    font-size: 22px;
+    margin: 0 10px;
+}
+.address-wrap-title {
+    font-size: 22px;
+    color: #535353;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 32px 0px 24px 0px;
+    width:1240px;
+    margin:auto;
+}
+.address-wrap-ul {
+    padding-top: 28px;
+}
+#address_list {
+    margin-right: -20px;
+}
+
+    .address-wrap-ul li {
+    margin-bottom: 48px;
+    
+}
+
+.addressli {
+    width: 293px;
+    height: 228px;
+    float: left;
+    border: 1px solid #e2e2e2;
+    background-color: #f8f8f8;
+    }
+.addressli.active {
+    border: 1px solid #ff498c;
+    background-color: white;
+}
+.add-wrap {
+    text-align: center;
+    margin-top: 91px;
+}
+#rules {
+    font-size: 20px;
+    color: #535353;
+    margin: 14px 0px 18px 8px;
+    width:304px;
+}
+.order-reuslt-info {
+    padding: 25px 20px;
+    border-top: 1px solid #e2e2e2;
+    border-bottom: 1px solid #e2e2e2;
+    overflow: hidden;
+    margin-bottom: 20px;
+    width: 1249px;
+    margin: auto;
+}
+.float_r {
+    float: right;
+}
+.float_l {
+    float: left;
+    color:#999;
+    font-size:14px;
+}
+.mustPay {
+    margin-top: 40px;
+}
+.result-second-ul {
+    color: #ff498c;
+    float: right;
+    text-align: right;
+    font-size:14px;
+}
+
+.paybtn-wrap {
+    margin-bottom: 50px;
+    width:1240px;
+    height:40px;
+    background:#FFF;
+    padding-bottom:100px;
+    margin-top:50px;
+}
+.weixinbtn {
+    background-color: #3ad754;
+}
+.paybtn {
+    width: 128px;
+    height: 40px;
+    border: none;
+    font-size: 14px;
+    color: white;
+    margin-left: 42px;
+    float:right;
+    }
+.zhifubaobtn {
+    background-color: #ff498c;
+}
+.input-group{
+    width:158px;
+    border:1px solid;
+    margin-left:20px;
+}
+#form{
+    width:100px;
+    text-align:center;
+    border:none;
+}
